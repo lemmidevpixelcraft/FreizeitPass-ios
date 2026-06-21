@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FreizeitPass – Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 760px; margin: 0 auto; padding: 24px; line-height: 1.6;
+         background: #ffffff; color: #1c1c1e; }
+  @media (prefers-color-scheme: dark) { body { background: #000; color: #f2f2f7; } a { color: #6cb0ff; } }
+  h1 { font-size: 1.7rem; } h2 { font-size: 1.15rem; margin-top: 1.6rem; }
+  .lang-switch { margin-bottom: 1.5rem; }
+  .lang-switch a { margin-right: 12px; font-weight: 600; text-decoration: none; }
+  .muted { color: #8e8e93; font-size: .9rem; }
+  .card { background: rgba(127,127,127,.10); border-radius: 14px; padding: 16px 18px; margin: 14px 0; }
+  details { margin: 10px 0; } summary { font-weight: 600; cursor: pointer; }
+  hr { border: none; border-top: 1px solid #c6c6c8; margin: 2.5rem 0; }
+  section[hidden] { display: none; }
+  a.btn { display: inline-block; padding: 12px 18px; border-radius: 12px; background: #0a84ff;
+          color: #fff; text-decoration: none; font-weight: 600; margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<div class="lang-switch">
+  <a href="#" onclick="show('de');return false;">Deutsch</a>
+  <a href="#" onclick="show('en');return false;">English</a>
+</div>
+
+<!-- ============ DEUTSCH ============ -->
+<section id="de">
+  <h1>FreizeitPass – Support</h1>
+  <p>Hallo! FreizeitPass wird von einem einzelnen Entwickler in seiner Freizeit
+  gepflegt. Bei Fragen, Fehlern oder Wünschen melde dich gerne.</p>
+
+  <div class="card">
+    <strong>Kontakt</strong><br>
+    E-Mail: <a href="mailto:lemmidevpixelcraft@gmail.com">lemmidevpixelcraft@gmail.com</a><br>
+    <span class="muted">Antwort meist innerhalb weniger Tage.</span>
+    <br>
+    <a class="btn" href="mailto:lemmidevpixelcraft@gmail.com?subject=FreizeitPass%20Support">E-Mail schreiben</a>
+  </div>
+
+  <h2>Häufige Fragen</h2>
+
+  <details>
+    <summary>Ein Ort hat keinen Pin auf der Karte – was tun?</summary>
+    <p>Öffne den Ort → „bearbeiten" und tippe auf „Ort auf Karte wählen" oder den
+    Geocoding-Button. Manche Adressen (z. B. „Talstation") lassen sich nicht
+    automatisch verorten und müssen einmal manuell gesetzt werden.</p>
+  </details>
+
+  <details>
+    <summary>Meine Daten sind auf einem neuen iPhone weg.</summary>
+    <p>Stelle sicher, dass auf beiden Geräten dasselbe iCloud-Konto aktiv ist und
+    iCloud für die App aktiviert ist. Die Synchronisierung kann nach dem ersten
+    Start einige Minuten dauern.</p>
+  </details>
+
+  <details>
+    <summary>Eintrittspreise stimmen nicht.</summary>
+    <p>Die hinterlegten Tarife sind Richtwerte und können sich ändern. Du kannst
+    sie pro Einrichtung selbst anpassen. Alle Angaben ohne Gewähr – bitte prüfe
+    Preise und Öffnungszeiten immer bei der Einrichtung selbst.</p>
+  </details>
+
+  <details>
+    <summary>Was ist in FreizeitPass Pro enthalten?</summary>
+    <p>Ein einmaliger Kauf (kein Abo) schaltet mehrere Ticket-Profile, die
+    Detail-Statistik, alle Designs, den Ausflugskalender und Benachrichtigungen
+    frei. Bereits gekauftes Pro lässt sich über „Käufe wiederherstellen"
+    reaktivieren.</p>
+  </details>
+
+  <details>
+    <summary>Benachrichtigungen kommen nicht.</summary>
+    <p>Prüfe in den iOS-Einstellungen → Mitteilungen → FreizeitPass, ob
+    Mitteilungen erlaubt sind, und ob in der App Benachrichtigungen aktiviert
+    sind.</p>
+  </details>
+
+  <p class="muted">FreizeitPass ist eine unabhängige App und steht in keiner
+  Verbindung zum Herausgeber des Freizeittickets. Alle Angaben ohne Gewähr.</p>
+</section>
+
+<!-- ============ ENGLISH ============ -->
+<section id="en" hidden>
+  <h1>FreizeitPass – Support</h1>
+  <p>Hi! FreizeitPass is maintained by a single developer in their spare time.
+  If you have questions, bug reports or feature ideas, feel free to reach out.</p>
+
+  <div class="card">
+    <strong>Contact</strong><br>
+    Email: <a href="mailto:lemmidevpixelcraft@gmail.com">lemmidevpixelcraft@gmail.com</a><br>
+    <span class="muted">Usually replies within a few days.</span>
+    <br>
+    <a class="btn" href="mailto:lemmidevpixelcraft@gmail.com?subject=FreizeitPass%20Support">Send email</a>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+
+  <details>
+    <summary>A place has no pin on the map – what can I do?</summary>
+    <p>Open the place → "Edit" and tap "Choose location on map" or the geocoding
+    button. Some addresses (e.g. "Talstation") can't be located automatically and
+    need to be set manually once.</p>
+  </details>
+
+  <details>
+    <summary>My data is gone on a new iPhone.</summary>
+    <p>Make sure both devices use the same iCloud account and that iCloud is
+    enabled for the app. Syncing may take a few minutes after first launch.</p>
+  </details>
+
+  <details>
+    <summary>Entry prices are wrong.</summary>
+    <p>The stored tariffs are approximate and may change. You can edit them per
+    facility. All information without guarantee – please always verify prices and
+    opening hours with the facility itself.</p>
+  </details>
+
+  <details>
+    <summary>What's included in FreizeitPass Pro?</summary>
+    <p>A one-time purchase (no subscription) unlocks multiple ticket profiles,
+    detailed statistics, all themes, the trip calendar and notifications. Already
+    purchased Pro can be re-activated via "Restore purchases".</p>
+  </details>
+
+  <details>
+    <summary>Notifications don't arrive.</summary>
+    <p>Check iOS Settings → Notifications → FreizeitPass to ensure notifications
+    are allowed, and that notifications are enabled inside the app.</p>
+  </details>
+
+  <p class="muted">FreizeitPass is an independent app and is not affiliated with
+  the issuer of the Freizeitticket. All information without guarantee.</p>
+</section>
+
+<hr>
+<p class="muted">© FreizeitPass</p>
+
+<script>
+  function show(lang){
+    document.getElementById('de').hidden = (lang !== 'de');
+    document.getElementById('en').hidden = (lang !== 'en');
+    document.documentElement.lang = lang;
+  }
+  if ((navigator.language||'').toLowerCase().startsWith('en')) show('en');
+</script>
+
+</body>
+</html>
